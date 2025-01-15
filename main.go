@@ -1,7 +1,9 @@
 package main
 
-import "github.com/NorShell/diggers/runtime"
+import (
+	"github.com/NorShell/diggers/cmd"
+)
 
 func main() {
-	runtime.Execute()
+	cmd.Execute()
 }
